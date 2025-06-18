@@ -15,17 +15,62 @@
 .brounded-sm
   border-radius: 8px !important
 
+.img-a 
+  display: block
+  margin: auto
+
+.img-t
+  width: auto !important
+  height: auto !important 
+
+.j1
+  display: grid
+  align-items: center  
+
+.br-1
+  border-radius: 10px !important  
+
+.color
+  &-1
+    color: #292584 !important       
+
 .bg-color
   &-1
-    background-color: #EAF8FD
+    background-color: #F9E3D4
   &-2
-    background-color: #FFFBE8
+    background-color: #134B69
+    *
+      color: white
   &-3
-    background-color: #F0E9F6
+    background-color: #BBDBEB
   &-4
-    background-color: #EAF8FD
+    background-color: #F9E3D4
+  &-5
+    background-color: #4A5641
+    *
+      color: white
+  &-6
+    background-color: #CFD7C8
+  &-7
+    background-color: #EAE4DC           
+  &-8
+    background-color: #E7F2F8
+  &-9
+    background-color: #BBDBEB
+  &-10
+    background-color: #BCA78F 
+  &-11
+    background-color: #D2E7F2  
+  &-12
+    background-color: #FCF5F0
+  &-13
+    background-color: #F2F4F0
+  &-14
+    background-color: #CFD7C8  
+  &-15
+    background-color: #ECA675                                  
   &-info
-    background-color: #E8EEFD
+    background-image: url("../assets/bg/bg-info.png") !important
   &-sintesis
     background-color: #F9F9F9
   &-white
@@ -39,23 +84,86 @@
   &.color-terciario
     border-top: 5px solid $color-terciario !important
 
+
+.bg-h85
+  position: relative
+  &::after
+    content: ''
+    position: absolute
+    bottom: 0%
+    left: 0
+    width: 100%
+    height: 82%
+    transform: translateY(-0%)
+    background-color: #BBDBEB
+    z-index: 0
+    border-style: dashed 
+    border-width: 1px 
+  .col-lg-12
+    z-index: 1
+  @media screen and (max-width: $bp-max-md)
+    padding: 1rem
+    &::after
+      bottom: 0
+      height: 100%  
+
+.bg-h86
+  position: relative
+  &::after
+    content: ''
+    position: absolute
+    bottom: 18%
+    left: 0
+    width: 100%
+    height: 82%
+    transform: translateY(-0%)
+    background-color: #F9E3D4
+    z-index: 0
+  .col-lg-12
+    z-index: 1
+  @media screen and (max-width: $bp-max-md)
+    padding: 1rem
+    &::after
+      bottom: 0
+      height: 100%        
+
 // Full Width Background
 .bg-full-width
-  background-size: cover
-  background-repeat: no-repeat
-  background-position: bottom
-  margin-inline: -3.3rem
-  @media screen and (max-width: $bp-max-sm)
-    padding-left: 1.5rem
-    padding-right: 1.5rem
+  &-1
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    background-position: bottom
+    margin-inline: -3.3rem
+    @media screen and (max-width: $bp-max-sm)
+      padding-left: 1.5rem
+      padding-right: 1.5rem
+
+  &-2
+    background-size: 100% 71%
+    background-repeat: no-repeat
+    background-position: center top
+    margin-inline: -3.3rem
+    @media screen and (max-width: $bp-max-sm)
+      padding-left: 1.5rem
+      padding-right: 1.5rem    
+
+  &-3
+    background-size: 100% 60%
+    background-repeat: no-repeat
+    background-position: bottom
+    margin-inline: -3.3rem
+    @media screen and (max-width: $bp-max-sm)
+      padding-left: 1.5rem
+      padding-right: 1.5rem     
 
 .bg-fondo
   &-1
     background-image: url("../assets/bg/bg1.png") !important
     background-position: top
   &-2
-    // background-image: url("../assets/bg/bg2.png") !important
-    background-position: bottom
+    background-image: url("../assets/bg/bg2.png") !important
+  &-3
+    background-image: url("../assets/bg/bg3.png") !important
   &-slider
     background-image: url("../assets/bg/bg-slider.png") !important
     background-position: bottom
@@ -142,6 +250,8 @@ $custom-card-img-height: 322px
 .shadow-soft
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.05)
 
+.sha
+  border: 1px solid rgba(0,0,0,0.1)
 .tabs-content
   background-color: #F4F4F4
 
@@ -227,3 +337,34 @@ th.bg-color-tabla
 
 .bordes
   border: 1px solid lightgray !important
+
+
+.slyder-a__tipo-b
+  background-color: #134B69 !important    
+.slyder-a__bullets__item
+  background-color: #94ADBB !important
+  border-color: #94ADBB !important        
+
+.slyder-a__bullets__item--active
+  background-color: #35B5E6 !important
+  border-color: #35B5E6 !important    
+
+.tabla-a-1 thead 
+  background-color: #292584 !important 
+  *
+    color: white   
+
+th.bg-color-tabla
+  background-color: #453179 !important
+  color: #fff !important    
+
+.acordion__header
+  background-color: #F9E3D4 !important
+
+.acordion__header--active
+  background-color: #ECA675 !important
+  h4, i
+    color: black !important
+
+.acordion__contenido
+  background-color: #FCF5F0 !important       
