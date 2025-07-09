@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'3. Formulación e implementación'")
+  BannerInterno(:subTitulo="'3. Decreto 1095 del 2013'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
     .bg-color-5.mb-5(data-aos="fade-up")
       .row.justify-content-center.align-items-center            
@@ -71,7 +71,7 @@
             .col-lg-auto(data-aos="zoom-in")
               img.img-a.img-t(src='@/assets/curso/temas/56.svg', alt="" )         
             .col-lg.j1(data-aos="fade-left")
-              p.mb-0.mt-4 ¿Cómo se forma la identidad de una institución educativa? ¿Por qué en algunos jardines infantiles se respira un ambiente de respeto, juego y alegría, mientras que en otros todo parece más rutinario y sin vida?       
+              p.mb-0.mt-4 ¿Se reconoce la trascendental importancia de contar con un marco normativo sólido que garantice una convivencia escolar armoniosa, inclusiva y efectiva?       
 
 
     .row.mb-5
@@ -201,7 +201,7 @@
           .col-lg-8
             h2.mb-4(data-aos="flip-up") Convivencia escolar y corresponsabilidad en la comunidad educativa
             p.mb-4(data-aos="fade-right") Se invita a leer el documento Convivencia escolar y corresponsabilidad en la comunidad educativa, donde se aborda la importancia de una estructura clara y participativa en los manuales de convivencia escolar, con base en el Decreto 1095 del 2013.
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_4.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
